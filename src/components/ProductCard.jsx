@@ -24,7 +24,7 @@ function ProductCard() {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">Buy</Button>
+                <Button href="/product" size="small">Buy</Button>
                 <a href="/addtocart" size="small"> Add to cart </a>
             </CardActions>
         </Card>

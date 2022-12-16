@@ -1,3 +1,31 @@
+export const sliderItems = [
+    {
+        id: 1,
+        img:
+            "https://s4.forcloudcdn.com/item/images/dmc/91f9747f-777e-490a-8bd0-8fd82eded421-800x800.jpeg_min.jpg",
+        title: "SUMMER SALE",
+        desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30%OFF FOR NEW ARRIVALS.",
+        bg: "f5fafd",
+    },
+    {
+        id: 2,
+        img:
+            "https://iso.500px.com/wp-content/uploads/2020/08/Diana-and-Zhanna-By-Tatiana-Pavlova-1500x1000.jpeg",
+        title: "WINTER COLLECTION",
+        desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30%OFF FOR NEW ARRIVALS.",
+        bg: "fcf1ed",
+    },
+
+    {
+        id: 3,
+        img:
+            "https://cdn.shopify.com/s/files/1/2303/2711/products/hypop-solid-white-3m-x-6m-cotton-muslin-background-lifestyle-inuse-example-5_580x@2x.jpg?v=1628289893",
+        title: "MOVE COMFORTABLE",
+        desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30%OFF FOR NEW ARRIVALS.",
+        bg: "fbf0f4",
+    },
+];
+
 export const popularProducts = [
     {
         //Re-Nylon Short sleeved shirt//

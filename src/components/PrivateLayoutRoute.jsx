@@ -6,7 +6,7 @@ import Footer from './Footer';
 import { UserContext } from './UserContext';
 
 
-function LayoutRoute(props) {
+function PrivateLayoutRoute(props) {
 
     const { loggedIn } = UserContext;
 
@@ -29,4 +29,4 @@ function LayoutRoute(props) {
     }
 }
 
-export default LayoutRoute;
+export default PrivateLayoutRoute;

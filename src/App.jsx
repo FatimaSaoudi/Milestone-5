@@ -1,36 +1,33 @@
-import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import LayoutRoute from "./components/LayoutRoute";
-import GuestLayoutRoute from "./components/GuestLayoutRoute";
-import PrivateLayoutRoute from "./components/PrivateLayoutRoute";
-import HomeScreen from './pages/HomeScreen';
-import DonateScreen from "./pages/DonateScreen";
-import ProductsScreen from "./pages/ProductsScreen";
-import InvolvedScreen from "./pages/InvolvedScreen";
-import RegistrationScreen from "./pages/RegistrationScreen";
-import LoginScreen from "./pages/LoginScreen";
-import CartScreen from './pages/CartScreen';
-import DonateLayoutRoute from './components/DonateLayoutRoute';
 
+import React from 'react';
+import { BrowserRouter, Switch } from 'react-router-dom';
+import HomeScreen from './pages/HomeScreen';
+import DonateScreen from './pages/DonateScreen';
+import InvolvedScreen from './pages/InvolvedScreen';
+import RegistrationScreen from './pages/RegistrationScreen';
+import LoginScreen from './pages/LoginScreen';
+import ProductListScreen from './pages/ProductListScreen';
+import ProductScreen from './pages/ProductScreen';
+import LayoutRoute from './components/LayoutRoute';
+import GuestLayoutRoute from './components/GuestLayoutRoute';
+import PrivateLayoutRoute from './components/PrivateLayoutRoute';
 
 
 
 function App() {
-  //const { jsonwebtoken, updateUser } = useContext(UserContext);
   return (
     <BrowserRouter>
       <Switch>
         <LayoutRoute path="/" exact={true} component={HomeScreen} />
         <DonateLayoutRoute path="/donate" exact={true} component={DonateScreen} />
-        <LayoutRoute path="/products" exact={true} component={ProductsScreen} />
         <LayoutRoute path="/involved" exact={true} component={InvolvedScreen} />
-        <LayoutRoute path="/register" exact={true} component={RegistrationScreen} />
-        <LayoutRoute path="/login" exact={true} component={LoginScreen} />
+        <LayoutRoute path="/products" exact={true} component={ProductListScreen} />
+        <LayoutRoute path="/product" exact={true} component={ProductScreen} />
+        <GuestLayoutRoute path="/register" exact={true} component={RegistrationScreen} />
+        <GuestLayoutRoute path="/login" exact={true} component={LoginScreen} />
         <LayoutRoute path="/addtocart" exact={true} component={CartScreen} />
-
       </Switch>
     </BrowserRouter>
-
   );
 }
 

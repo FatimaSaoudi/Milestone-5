@@ -1,10 +1,11 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import GetLocation from '../components/GetLocation';
+import LocationTab from '../components/LocationTab';
 import DateandTime from './DateandTime'; 
 import Dropdown from './Dropdown';
 import CheckCircleOutlinedIcon from '@mui/icons-material/CheckCircleOutlined';
 import { green } from '@mui/material/colors';
-// import Sonnet from '../../components/Sonnet';
 
 
 
@@ -20,7 +21,21 @@ function DonateScreen() {
                 fill
             >
                 <Tab eventKey="category" title="Category">
-                    {/* <Sonnet /> */}
+                    <h1>Category</h1>
+                    <p>Lorem ipsum askjvfbiwvbjk cb wdvckjkhdvchjwbd  ,m vkjbiuwefbuw  wekjfcbwe vewh vjhwevcn wevc   jkewbvjicweb ikjkj kjb jubuibkj bhj gfvyu k ckjut yuvyx syjhvc jhdxyt chjcuyjdstycvkjdx utcjkcxhgdyuhjvkj hdxsytjkdxjyduyhjvjk duyfkjchjv</p>
+                </Tab>
+                <Tab eventKey="pickup" title="Pickup schedule">
+                    <h1>Pickup Schedule</h1>
+                    <p>Lorem ipsum askjvfbiwvbjk cb wdvckjkhdvchjwbd  ,m vkjbiuwefbuw  wekjfcbwe vewh vjhwevcn wevc   jkewbvjicweb ikjkj kjb jubuibkj bhj gfvyu k ckjut yuvyx syjhvc jhdxyt chjcuyjdstycvkjdx utcjkcxhgdyuhjvkj hdxsytjkdxjyduyhjvjk duyfkjchjv</p>
+                </Tab>
+                <Tab justify eventKey="location" title="Location">
+                    <LocationTab />
+                </Tab>
+                <Tab eventKey="bookingplace disabled" title="Booking Placed">
+                    <h1>Booking Confirmed</h1>
+                    <p>Lorem ipsum askjvfbiwvbjk cb wdvckjkhdvchjwbd  ,m vkjbiuwefbuw  wekjfcbwe vewh vjhwevcn wevc   jkewbvjicweb ikjkj kjb jubuibkj bhj gfvyu k ckjut yuvyx syjhvc jhdxyt chjcuyjdstycvkjdx utcjkcxhgdyuhjvkj hdxsytjkdxjyduyhjvjk duyfkjchjv</p>
+                </Tab>
+
 
                     <h3 className='mt-5 text-center'>Pick your donation items: </h3>
 
