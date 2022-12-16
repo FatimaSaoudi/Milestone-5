@@ -1,6 +1,6 @@
 function Hero() {
 
-    return(
+    return (
 
         <section className="hero vh-100 d-flex align-items-center" id="home">
             <div className="container">
@@ -10,13 +10,13 @@ function Hero() {
                         <p className="text-white my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quia
                             sequi eius. Quas, totam aliquid. Repudiandae reiciendis vel excepturi ipsa voluptate dicta!
                         </p>
-                        <a href="#donate" className="btn me-2 btn-primary">Donate now</a>
-                        <a href="#shop now" className="btn btn-outline-light">Shop now</a>
+                        <a href="/donate" className="btn me-2 btn-primary">Donate now</a>
+                        <a href="/products" className="btn btn-outline-light">Shop now</a>
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
 export default Hero;

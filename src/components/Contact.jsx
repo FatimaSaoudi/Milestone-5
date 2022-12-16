@@ -2,25 +2,25 @@ function Contact() {
 
     const contactStyle = {
         "color": "red",
-    }
+    };
 
-    return(
+    return (
 
         <section className="bg-light py-1" id="contact">
             <div className="container mt-5 mb-5 w-50">
                 <h2 className="mb-4 text-center">Contact Us</h2>
                 <form action="https://formspree.io/f/xlevkerw" method="POST">
                     <div className="col mb-3">
-                        <a>First Name <span style={contactStyle}>*</span></a>
-                        <input type="text" className="form-control" name="firstname"/>
+                        <a href>First Name <span style={contactStyle}>*</span></a>
+                        <input type="text" className="form-control" name="firstname" />
                     </div>
                     <div className="col mb-3">
-                        <a>Last Name <span style={contactStyle}>*</span></a>
-                        <input type="text" className="form-control" name="lastname"/>
+                        <a href>Last Name <span style={contactStyle}>*</span></a>
+                        <input type="text" className="form-control" name="lastname" />
                     </div>
                     <div className="mb-3">
-                        <a>Email <span style={contactStyle}>*</span></a>
-                        <input type="text-light" className="form-control" name="email"/>
+                        <a href>Email <span style={contactStyle}>*</span></a>
+                        <input type="text-light" className="form-control" name="email" />
                     </div>
                     <div className="form-group col mb-3 col-5">
                         <label>Regarding? <span style={contactStyle}>*</span></label>
@@ -38,7 +38,7 @@ function Contact() {
                 </form>
             </div>
         </section>
-    )
+    );
 }
 
 export default Contact;
