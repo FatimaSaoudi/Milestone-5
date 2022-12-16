@@ -10,6 +10,8 @@ import InvolvedScreen from "./pages/InvolvedScreen";
 import RegistrationScreen from "./pages/RegistrationScreen";
 import LoginScreen from "./pages/LoginScreen";
 import CartScreen from './pages/CartScreen';
+import DonateLayoutRoute from './components/DonateLayoutRoute';
+
 
 
 
@@ -19,7 +21,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <LayoutRoute path="/" exact={true} component={HomeScreen} />
-        <LayoutRoute path="/donate" exact={true} component={DonateScreen} />
+        <DonateLayoutRoute path="/donate" exact={true} component={DonateScreen} />
         <LayoutRoute path="/products" exact={true} component={ProductsScreen} />
         <LayoutRoute path="/involved" exact={true} component={InvolvedScreen} />
         <LayoutRoute path="/register" exact={true} component={RegistrationScreen} />
