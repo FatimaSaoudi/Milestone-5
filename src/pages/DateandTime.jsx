@@ -6,7 +6,6 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker'
-// import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 
 export default function DateandTime() {
   const [value, setValue] = React.useState(dayjs);
@@ -34,12 +33,6 @@ export default function DateandTime() {
           onChange={handleChange}
           renderInput={(params) => <TextField sx={{width: '50%'}} {...params} />}
         />
-        {/* <DateTimePicker
-          label="Date&Time picker"
-          value={value}
-          onChange={handleChange}
-          renderInput={(params) => <TextField {...params} />}
-        /> */}
       </Stack>
     </LocalizationProvider>
 
