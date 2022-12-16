@@ -14,8 +14,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Donate Now', 'Shop Products', 'Get Invloved', 'Register', 'Login'];
-const pagesPaths = ['/donate', '/products', '/involved', '/register', '/login'];
+const pages = ['Donate Now', 'Shop Products', 'Get Invloved', 'Register', 'Login', 'Add to cart'];
+const pagesPaths = ['/donate', '/products', '/involved', '/register', '/login', '/addtocart'];
 
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
