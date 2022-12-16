@@ -9,6 +9,8 @@ import ProductsScreen from "./pages/ProductsScreen";
 import InvolvedScreen from "./pages/InvolvedScreen";
 import RegistrationScreen from "./pages/RegistrationScreen";
 import LoginScreen from "./pages/LoginScreen";
+import CartScreen from './pages/CartScreen';
+
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <LayoutRoute path="/involved" exact={true} component={InvolvedScreen} />
         <LayoutRoute path="/register" exact={true} component={RegistrationScreen} />
         <LayoutRoute path="/login" exact={true} component={LoginScreen} />
+        <LayoutRoute path="/addtocart" exact={true} component={CartScreen} />
+
       </Switch>
     </BrowserRouter>
 
