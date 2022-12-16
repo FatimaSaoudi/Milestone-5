@@ -25,7 +25,7 @@ function ProductCard() {
             </CardContent>
             <CardActions>
                 <Button href="/product" size="small">Buy</Button>
-                <Button size="small">Add to Cart</Button>
+                <a href="/addtocart" size="small"> Add to cart </a>
             </CardActions>
         </Card>
     );

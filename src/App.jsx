@@ -13,17 +13,19 @@ import GuestLayoutRoute from './components/GuestLayoutRoute';
 import PrivateLayoutRoute from './components/PrivateLayoutRoute';
 
 
+
 function App() {
   return (
     <BrowserRouter>
       <Switch>
         <LayoutRoute path="/" exact={true} component={HomeScreen} />
-        <LayoutRoute path="/donate" exact={true} component={DonateScreen} />
+        <DonateLayoutRoute path="/donate" exact={true} component={DonateScreen} />
         <LayoutRoute path="/involved" exact={true} component={InvolvedScreen} />
         <LayoutRoute path="/products" exact={true} component={ProductListScreen} />
         <LayoutRoute path="/product" exact={true} component={ProductScreen} />
         <GuestLayoutRoute path="/register" exact={true} component={RegistrationScreen} />
         <GuestLayoutRoute path="/login" exact={true} component={LoginScreen} />
+        <LayoutRoute path="/addtocart" exact={true} component={CartScreen} />
       </Switch>
     </BrowserRouter>
   );
