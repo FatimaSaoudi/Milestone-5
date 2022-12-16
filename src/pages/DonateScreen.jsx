@@ -20,23 +20,8 @@ function DonateScreen() {
                 className=" bg-light mt-5 mb-3 justify"
                 fill
             >
+                
                 <Tab eventKey="category" title="Category">
-                    <h1>Category</h1>
-                    <p>Lorem ipsum askjvfbiwvbjk cb wdvckjkhdvchjwbd  ,m vkjbiuwefbuw  wekjfcbwe vewh vjhwevcn wevc   jkewbvjicweb ikjkj kjb jubuibkj bhj gfvyu k ckjut yuvyx syjhvc jhdxyt chjcuyjdstycvkjdx utcjkcxhgdyuhjvkj hdxsytjkdxjyduyhjvjk duyfkjchjv</p>
-                </Tab>
-                <Tab eventKey="pickup" title="Pickup schedule">
-                    <h1>Pickup Schedule</h1>
-                    <p>Lorem ipsum askjvfbiwvbjk cb wdvckjkhdvchjwbd  ,m vkjbiuwefbuw  wekjfcbwe vewh vjhwevcn wevc   jkewbvjicweb ikjkj kjb jubuibkj bhj gfvyu k ckjut yuvyx syjhvc jhdxyt chjcuyjdstycvkjdx utcjkcxhgdyuhjvkj hdxsytjkdxjyduyhjvjk duyfkjchjv</p>
-                </Tab>
-                <Tab justify eventKey="location" title="Location">
-                    <LocationTab />
-                </Tab>
-                <Tab eventKey="bookingplace disabled" title="Booking Placed">
-                    <h1>Booking Confirmed</h1>
-                    <p>Lorem ipsum askjvfbiwvbjk cb wdvckjkhdvchjwbd  ,m vkjbiuwefbuw  wekjfcbwe vewh vjhwevcn wevc   jkewbvjicweb ikjkj kjb jubuibkj bhj gfvyu k ckjut yuvyx syjhvc jhdxyt chjcuyjdstycvkjdx utcjkcxhgdyuhjvkj hdxsytjkdxjyduyhjvjk duyfkjchjv</p>
-                </Tab>
-
-
                     <h3 className='mt-5 text-center'>Pick your donation items: </h3>
 
                     <div className='container justify-content-evenly d-flex'>
@@ -54,9 +39,7 @@ function DonateScreen() {
                 </Tab>
 
                 <Tab justify eventKey="location" title="Location">
-                    {/* <Sonnet /> */}
-                    <h1>Location</h1>
-                    <p>Lorem ipsum askjvfbiwvbjk cb wdvckjkhdvchjwbd  ,m vkjbiuwefbuw  wekjfcbwe vewh vjhwevcn wevc   jkewbvjicweb ikjkj kjb jubuibkj bhj gfvyu k ckjut yuvyx syjhvc jhdxyt chjcuyjdstycvkjdx utcjkcxhgdyuhjvkj hdxsytjkdxjyduyhjvjk duyfkjchjv</p>
+                    <LocationTab />
                 </Tab>
 
                 <Tab eventKey="booking" title="Booking">
