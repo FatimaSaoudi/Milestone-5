@@ -11,7 +11,8 @@ import ProductScreen from './pages/ProductScreen';
 import LayoutRoute from './components/LayoutRoute';
 import GuestLayoutRoute from './components/GuestLayoutRoute';
 import PrivateLayoutRoute from './components/PrivateLayoutRoute';
-
+import DonateLayoutRoute from './components/DonateLayoutRoute';
+import CartScreen from './pages/CartScreen';
 
 
 function App() {
