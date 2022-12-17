@@ -8,6 +8,7 @@ import RegistrationScreen from './pages/RegistrationScreen';
 import LoginScreen from './pages/LoginScreen';
 import ProductListScreen from './pages/ProductListScreen';
 import ProductScreen from './pages/ProductScreen';
+import ProfileScreen from './pages/ProfileScreen';
 import LayoutRoute from './components/LayoutRoute';
 import GuestLayoutRoute from './components/GuestLayoutRoute';
 import PrivateLayoutRoute from './components/PrivateLayoutRoute';
@@ -27,6 +28,7 @@ function App() {
         <GuestLayoutRoute path="/register" exact={true} component={RegistrationScreen} />
         <GuestLayoutRoute path="/login" exact={true} component={LoginScreen} />
         <LayoutRoute path="/addtocart" exact={true} component={CartScreen} />
+        <PrivateLayoutRoute path="/profile" exact={true} component={ProfileScreen} />
       </Switch>
     </BrowserRouter>
   );
